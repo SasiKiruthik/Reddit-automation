@@ -1,0 +1,5 @@
+{
+  "name": "research-site-browser-use-playwright",
+  "private": true,
+  "description": "Python MCP v2 server + Playwright + Browser Use for authorized research-site automation."
+}

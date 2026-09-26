@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+*.pyc
+profiles/*/state.json
+.env
+.env.*
+!.env.example
+logs/*.log
+data/state.json

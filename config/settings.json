@@ -1,0 +1,27 @@
+{
+  "site": {
+    "base_url": "http://localhost:3000",
+    "community_paths": [
+      "/r/technology",
+      "/r/programming"
+    ]
+  },
+  "workflow": {
+    "posts_per_account": 3,
+    "interval_seconds": 60,
+    "max_steps_per_post": 20,
+    "max_seconds_per_post": 90,
+    "headless": false
+  },
+  "browser_use": {
+    "package": "browser-use==0.13.10",
+    "llm": {
+      "provider": "openai",
+      "model": "gpt-4.1-mini"
+    }
+  },
+  "reply": {
+    "mode": "template",
+    "template": "Interesting post. Thanks for sharing this perspective."
+  }
+}

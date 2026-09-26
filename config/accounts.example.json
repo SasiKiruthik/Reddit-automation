@@ -1,0 +1,16 @@
+{
+  "accounts": [
+    {
+      "id": "account_01",
+      "profile_dir": "profiles/account_01",
+      "state_file": "state.json",
+      "enabled": true
+    },
+    {
+      "id": "account_02",
+      "profile_dir": "profiles/account_02",
+      "state_file": "state.json",
+      "enabled": true
+    }
+  ]
+}

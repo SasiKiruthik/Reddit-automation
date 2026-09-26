@@ -1,0 +1,3 @@
+browser-use==0.13.10
+mcp==2.1.1
+playwright==1.63.0
