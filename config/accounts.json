@@ -1,3 +1,47 @@
 {
-  "accounts": []
+  "accounts": [
+    {
+      "id": "account_01",
+      "username": " Whole_Ad6028",
+      "password": "Intern2$",
+      "enabled": true,
+
+      "community": {
+        "name": "r/IBO",
+        "url": "https://www.reddit.com/r/IBO/"
+      },
+
+      "workload": {
+        "posts_to_reply": 1,
+        "delay_between_replies_seconds": 60
+      }
+    },
+
+    {
+      "id": "account_02",
+      "username": "Plastic-Strategy1967",
+      "password": " Intern2$",
+      "enabled": true,
+
+      "community": {
+        "name": "r/BITSAT",
+        "url": "https://www.reddit.com/r/BITSAT/"
+      },
+
+      "workload": {
+        "posts_to_reply": 1,
+        "delay_between_replies_seconds": 60
+      }
+    }
+  ],
+
+  "site": {
+    "base_url": "https://www.reddit.com"
+  },
+
+  "commenting": {
+    "generate_with_gemini": true,
+    "require_confirmation": false,
+    "submit_replies": true
+  }
 }

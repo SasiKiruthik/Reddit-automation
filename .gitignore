@@ -7,3 +7,4 @@ profiles/*/state.json
 !.env.example
 logs/*.log
 data/state.json
+accounts.json
